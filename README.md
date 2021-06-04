@@ -2,10 +2,10 @@
 A customizable landing page for SaaS companies. Built with React and Tailwind CSS.
 
 ## To-Do
-- [] React Reveal Animations
-- [] Code Splitting
-- [] Installable as PWA
-- [] Dark Mode
+- [ ] React Reveal Animations
+- [ ] Code Splitting
+- [ ] Installable as PWA
+- [ ] Dark Mode
 
 ### `npm start`
 
