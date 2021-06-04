@@ -1,8 +1,11 @@
+# SaaS Landing Page Template
+A customizable landing page for SaaS companies. Built with React and Tailwind CSS.
+
 ## To-Do
-[x] React Reveal Animations
-[x] Code Splitting
-[x] Installable as PWA
-[x] Dark Mode
+- [x] React Reveal Animations
+- [x] Code Splitting
+- [x] Installable as PWA
+- [x] Dark Mode
 
 ### `npm start`
 
