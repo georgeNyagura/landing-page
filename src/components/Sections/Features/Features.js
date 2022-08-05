@@ -1,9 +1,9 @@
 import React from 'react';
 
-import features_illustration from '../../assets/features_illustration.svg';
-import { CheckedIcon } from '../icons/Icons';
+import features_illustration from '../../../assets/features_illustration.svg';
+import { CheckedIcon } from '../../icons/Icons';
 
-import { features } from '../../data';
+import { features } from '../../../data';
 
 const Features = () => {
     return (

@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { pricing } from '../../data';
+import { pricing } from '../../../data';
 
-import pricing_illustration from '../../assets/pricing_illustration.svg';
-import { CheckIcon } from '../icons/Icons';
-import RoundedButton from '../Atoms/RoundedButton';
-import FilledRoundedButton from '../Atoms/FilledRoundedButton';
+import pricing_illustration from '../../../assets/pricing_illustration.svg';
+import { CheckIcon } from '../../icons/Icons';
+// import RoundedButton from '../../Atoms/RoundedButton';
+// import FilledRoundedButton from '../../Atoms/FilledRoundedButton';
 
 const Pricing = () => {
     return (
@@ -33,18 +33,18 @@ const PricingSection = () => {
 
 const PricingCard = ({plan}) => {
     return (
-        <span className={`${plan.prefer ? 'border-red' : 'border-grey-darkest'} flex flex-col items-center justify-start h-screen py-10 space-y-5 bg-white border-2 shadow-lg w-72 rounded-2xl`}>
+        <span className={`${plan.prefer ? 'border-grey-darkest' : 'border-grey-darkest'} flex flex-col items-center justify-start h-screen py-20 space-y-5 bg-white border-2 shadow-lg w-100 rounded-2xl`}>
             <span><img src={pricing_illustration} alt="pricing_illustration" /></span>
             <span className="text-lg font-bold text-blue">{plan.name}</span>
             <span className="h-72"><Features features={plan.features} /></span>
             <span className="flex flex-col items-center space-y-4">
                 <Price price={plan.price}/>
-                {
+                {/* {
                     plan.prefer ?
                     <RoundedButton>{plan.ctaText}</RoundedButton>
                     :
                     <FilledRoundedButton>{plan.ctaText}</FilledRoundedButton>
-                }
+                } */}
             </span>
         </span>
     )
@@ -52,7 +52,7 @@ const PricingCard = ({plan}) => {
 
 const Price = ({ price }) => (
     <span className="space-x-1">
-        <span className="text-xl font-semibold text-blue">{price.cost}</span>
+        <span className="text-4xl font-semibold text-blue">{price.cost}</span>
         {
             price.subscription && <span>/</span>
         }

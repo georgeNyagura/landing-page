@@ -1,7 +1,7 @@
 export const features = {
-    heading: 'We Provide Many Features You Can Use',
-    detail: 'You can explore the features that we provide with fun and have their own functions each feature.',
-    features: ['Powerfull online protection.', 'Internet without borders.', 'Supercharged VPN', 'No specific time limits.']
+    heading: 'These are the services we currently provide',
+    detail: 'More features will be added in he near future, as we slowly grow our business.',
+    features: ['Website setup.', 'Building an online store for your small business']
 }
 
 export const pricing = {
@@ -10,25 +10,18 @@ export const pricing = {
     plans: [
         {
             prefer: false,
-            name: 'Free Plan',
-            features: ['Unlimited Bandwitch', 'Encrypted Connection', 'No Traffic Logs', 'Works on All Devices'],
-            price: {cost: 'Free', subscription: ''},
-            ctaText: 'Select'
-        },
-        {
-            prefer: false,
-            name: 'Standard Plan',
-            features: ['Unlimited Bandwitch', 'Encrypted Connection', 'Traffic Logs', 'Works on All Devices', 'Connect Anyware'],
-            price: {cost: '$9', subscription: 'mo'},
+            name: 'Website Setup',
+            features: ['Set up your homepage', 'Set up an email sending service', 'Create a custom 404 Page','Secure site' ],
+            price: {cost: '$150', subscription: ''},
             ctaText: 'Select'
         },
         {
             prefer: true,
-            name: 'Premium Plan',
-            features: ['Unlimited Bandwitch', 'Encrypted Connection', 'Traffic Logs', 'Works on All Devices', 'Connect Anyware', 'Get New Features'],
-            price: {cost: '$12', subscription: 'mo'},
+            name: 'Online Store Setup',
+            features: ['Online platform setup', 'Payment processing', 'Inventory Management', 'Setup custom providers for deliveries', 'Access to relavent analysis tools'],
+            price: {cost: '$60', subscription: ''},
             ctaText: 'Select'
-        }
+        },
     ]
 }
 

@@ -1,10 +1,10 @@
 import './App.css';
-import Features from './components/Features/Features';
-import Hero from './components/Hero/Hero';
-import Navbar from './components/Navbar/Navbar';
-import Pricing from './components/Pricing/Pricing';
-import Stats from './components/Stats/Stats';
-import Network from './components/Sections/Network/Network';
+import Features from './components/Sections/Features/Features';
+import Hero from './components/Sections/Hero/Hero';
+import Navbar from './components/Sections/Navbar/Navbar';
+import Pricing from './components/Sections/Pricing/Pricing';
+import Stats from './components/Sections/Stats/Stats';
+import ContactForm from './components/Sections/Network/ContactForm';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Stats />
       <Features />
       <Pricing />
-      <Network />
+      <ContactForm />
     </div>
   );
 }
